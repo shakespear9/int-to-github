@@ -20,5 +20,30 @@ mkdir myProject
 cd myProject
 git init
 git status ใช้สำหรับเช็คสถานะของ repository ว่ามีอะไรเปลี่ยนแปลงไปบ้าง ทำงานอยู่บน branch ไหน
+git add add ไฟล์ให้ git รับทราบ ( git add -A เพื่อ add ทุกไฟล์) 
+	หรือ update file ให้ git รับทราบ เก็บให้อยู่ใน staging area
+git restore ทิ้งการเปลี่ยนแปลง เพื่อกลับสู่สภาพล่าสุด
+git commit สร้างจุด check point
+git commit -m "message to be comitted"
+git branch branchName สร้าง branch
+git checkout branchName เพื่อเปลี่ยน  working branch
+git merge sourceBranchName merge จาก target branch ไปยัง current branch
+git branch -d branchName เพื่อลบ branch หลัง branch นั้นไม่ได้ทำอะไรแล้ว
 
-changing file from branch mymath
+git remote add origin REPOSITORY_URL เชื่อมต่อ local repository กับ remote repository
+git push -u origin master push local repository กับ remote repository
+
+สร้าง issue เพื่อขอ feature ใหม่หรือรายงาน bug
+
+Github CI/CD
+CI เอา code ที่พัฒนาแล้วมา test และ merge เป็นไฟล์เดียวกัน แล้วนำ code ไปส่งให้ repository อัตโนมัติ และ deploy ลง server ให้อัตโนมัติ
+CD อัพ project ของเราขึ้น server ให้ อัตโนมัติ
+
+
+Work flow เป็น set up ให้ work flow ตรวจสอบ code, file, coding, naming style และให้คะแนน
+ประกอบด้วย
+Event on อะไร เช่น on push
+Runner  
+Action steps มี step อะไรบ้าง 
+
+เรียนรู้เพิ่มเติมได้ที่ microsoft learn
