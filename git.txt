@@ -32,3 +32,4 @@ git branch -d branchName เพื่อลบ branch หลัง branch นั
 
 git remote add origin REPOSITORY_URL เชื่อมต่อ local repository กับ remote repository
 git push -u origin master push local repository กับ remote repository
+commit from github edit
