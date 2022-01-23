@@ -1,0 +1,22 @@
+git init เพื่อเริ่ม track
+git add เพิ่มไฟล์หรือบอก git ว่าไฟล์เปลี่ยนแปลง ก็จะเป็น staging area
+git commit นำการเปลี่ยนแปลงไปเก็บ คือ การเล่นเกมแล้วกดเซฟ
+git push เพิ่มอัพขึ้นไป remote repository
+
+git fetch ให้  remote repository บอกถึงการเปลี่ยนแปลงก่อน 
+แล้วใช้คำสั่ง git merge เพื่อรวม code ดีกว่า git pull
+
+git branch แตกกิ่ง เพื่อแยก feature ทำให้กิ่งที่แตกออกไปนั้น ไม่มีปัญหากับ code หลัก
+หากทดสอบแล้วไม่มีปัญหาก็ merge branch ได้
+
+git repository คือที่เก็บโค้ด
+
+github actions : built-in CI/CD Tool
+pull request (PR) บอกคนอื่น ๆ ว่าแก้อะไรไปบ้าง
+Issue  : แจ้งสิ่งใหม่ ๆ 
+
+
+mkdir myProject
+cd myProject
+git init
+git status ใช้สำหรับเช็คสถานะของ repository ว่ามีอะไรเปลี่ยนแปลงไปบ้าง ทำงานอยู่บน branch ไหน
