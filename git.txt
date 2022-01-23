@@ -20,3 +20,5 @@ mkdir myProject
 cd myProject
 git init
 git status ใช้สำหรับเช็คสถานะของ repository ว่ามีอะไรเปลี่ยนแปลงไปบ้าง ทำงานอยู่บน branch ไหน
+
+changing file from branch mymath
